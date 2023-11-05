@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/assets/sunset.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.slick-dots{
+  bottom: -30px !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+  opacity: 1 !important;
+  color: white !important;
+}
+.slick-dots li.slick-active button:before {
+  font-size: 12px !important;
+  opacity: 1 !important;
+  color: #4d6ae8 !important;
+}
